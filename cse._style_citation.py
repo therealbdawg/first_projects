@@ -1,7 +1,7 @@
 def cse_web_article(authors, dop, article_title, website, location, date_cited,  #required parameters #dop = date of publication
                     volume, issue, pages, url, doi):
     
-    print(f'{authors}. {dop}. {article_title.title()}. {website.title()}\     #copy and paste info in this format to receive CSR style citation
+    print(f'{authors}. {dop}. {article_title.title()}. {website.title()}\     #copy and paste info in this format to receive CSE style citation
  [{location}]. [cited {date_cited}];{volume}({issue});{pages}. \
 Available From:\n{url} doi: {doi}')
 
